@@ -7,7 +7,7 @@ function winEasy() {
   } else if (answer === "no") {
     alert("Oh! Anyway, have a nice day")
   } else {
-    alert("please, choose between yes or no.")
+    return alert("please, choose between yes or no.")
   }
 }
 
@@ -20,7 +20,7 @@ function winMedium() {
   } else if (answer === "no") {
     alert("Oh! Anyway, have a nice day")
   } else {
-    alert("please, choose between yes or no.")
+    return alert("please, choose between yes or no.")
   }
 }
 
@@ -33,6 +33,6 @@ function winHard() {
   } else if (answer === "no") {
     alert("Oh! Anyway, have a nice day")
   } else {
-    alert("please, choose between yes or no.")
+    return alert("please, choose between yes or no.")
   }
 }
