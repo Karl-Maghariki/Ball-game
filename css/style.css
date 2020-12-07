@@ -8,11 +8,17 @@ header {
   border: 6px solid #000000;
 }
 
+main {
+  border: 5px solid black;
+  height: 470px;
+  display: flex;
+  align-items: center;
+}
+
 .entername{
   color: darkblue;
   text-align: center;
 }
-
 
 @keyframes big-small {
   0% {transform: scale(1);}
@@ -70,4 +76,28 @@ header {
   animation-duration: 1s;
   border-radius: 10px;
   text-decoration: none;
+}
+
+.game {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#ball {
+  background-color: coral;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: ballMoving;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+@keyframes ballMoving {
+  0% {left: 2px;}
+  25% {left: 90%;}
+  50% {right: 2px;}
+  75% {right: 90%;}
+  100% {left: 2px;}
 }
