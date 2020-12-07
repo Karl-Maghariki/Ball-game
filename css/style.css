@@ -21,33 +21,48 @@ header {
 }
 
 .flex-container {
+  height: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 0px;
 }
 
 
 .level-easy {
+  background-color: springgreen;
+  border: 2px solid springgreen;
+}
+.level-medium, .size-small {
   background-color: green;
   border: 2px solid green;
 }
-.level-medium {
+.level-hard {
+  background-color: yellow;
+  border: 2px solid yellow;
+}
+.level-very-hard, .size-medium {
   background-color: goldenrod;
   border: 2px solid goldenrod;
 }
-.level-hard {
+.level-god-mode {
   background-color: red;
   border: 2px solid red;
 }
+.level-impossible, .size-big {
+  background-color: darkred;
+  border: 2px solid darkred;
+}
 
-.level {
+.level, .size {
+  font-size: 8px ;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 50px;
-  width: 200px;
-  height: 75px;
+  width: 66px;
+  height: 16px;
   color: #ffffff;
   text-align: center;
   animation-name: big-small;
@@ -55,5 +70,4 @@ header {
   animation-duration: 1s;
   border-radius: 10px;
   text-decoration: none;
-  box-shadow: 10px 10px grey;
 }
