@@ -21,7 +21,7 @@
         <label for="#">Choose ball size</label>
         <button onclick="smallBall()" class="size size-small">SMALL</button>
         <button onclick="mediumBall()" class="size size-medium">MEDIUM</button>
-        <button onclick="bigBall()" class="size size-big">HARD</button>
+        <button onclick="bigBall()" class="size size-big">BIG </button>
       </div>
       <div class="flex-container">
         <button onclick="startGame()" class="game game-start">Start game</button>
@@ -33,12 +33,8 @@
     </main>
     <footer>
       <div class="flex-container">
-        <button>Give up</button>
+        <button onclick="counter()" class="giveUP">Give up</button>
         <div id="pointsCounter"></div>
-      </div>
-      <div class="flex-container">
-        <span>Lives remaining</span>
-        <span>❤❤❤</span>
       </div>
     </footer>
   </body>

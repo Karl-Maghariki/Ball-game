@@ -13,6 +13,7 @@ main {
   height: 470px;
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .entername{
@@ -78,9 +79,10 @@ main {
   text-decoration: none;
 }
 
-.game {
+.game, .giveUP {
   background-color: #000000;
   color: #ffffff;
+  display: block;
 }
 
 #ball {
@@ -100,4 +102,15 @@ main {
   50% {right: 2px;background-color: yellowgreen}
   75% {right: 90%;background-color: chartreuse}
   100% {left: 2px;background-color: coral}
+}
+
+#pointsCounter {
+  height: 50px;
+  width: 50px;
+  border: 4px solid blue;
+  display: block;
+}
+
+.giveUP {
+  margin-bottom: 5px;
 }
