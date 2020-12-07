@@ -3,18 +3,43 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" />
-    <title>User form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Choose level</title>
   </head>
-  <body class="bodyONe">
-    <div id ="usercard">
-      <form action="#">
-        <h1 class="entername">Enter your name: </h1>
-        <h2 class="entername">Click on the ball to win !</h2>
-        <input placeholder="name" type="text" id="userName">
-        <a id="linkOne" href="chooselevel.html">Submit</a>
-      </form> 
-    </div>
+  <body>
+    <header>
+      <div class="flex-container">
+        <label for="#">Choose difficulty</label>
+        <button class="level level-easy">EASY</button>
+        <button class="level level-medium">MEDIUM</button>
+        <button class="level level-hard">HARD</button>
+        <button class="level level-very-hard">VERY HARD</button>
+        <button class="level level-god-mode">God mode</button>
+        <button class="level level-impossible ">Impossible</button>
+      </div>
+      <div class="flex-container">
+        <label for="#">Choose ball size</label>
+        <button class="size size-small">SMALL</button>
+        <button class="size size-medium">MEDIUM</button>
+        <button class="size size-big">HARD</button>
+      </div>
+      <div class="flex-container">
+        <button class="game game-start">Start game</button>
+        <button class="game game-stop">Stop game</button>
+      </div>
+    </header>
+    <main>
+      <div onclick="win()" id="ball"></div>
+    </main>
+    <footer>
+      <div class="flex-container">
+        <button>Give up</button>
+        <div id="pointsCounter"></div>
+      </div>
+      <div class="flex-container">
+        <span>Lives remaining</span>
+        <span>❤❤❤</span>
+      </div>
+    </footer>
   </body>
-  <script src="javascript/app.js"></script>
 </html>

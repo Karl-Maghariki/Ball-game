@@ -2,27 +2,17 @@
   box-sizing: border-box;
 }
 
-.bodyONe {background-color: darkblue;}
+body {margin: 0px;}
+
+header {
+  border: 6px solid #000000;
+}
 
 .entername{
   color: darkblue;
   text-align: center;
 }
 
-#linkOne {
-  border: 2.5px dashed darkblue;
-  background-color: #ffffff;
-  color: darkblue;
-  display: block;
-  width: 400px;
-  margin: 10px auto;
-  font-weight: 900;
-  animation-name: big-small;
-  animation-iteration-count: infinite;
-  animation-duration: 1s;
-  text-align: center;
-  text-decoration: none ;
-}
 
 @keyframes big-small {
   0% {transform: scale(1);}
@@ -30,43 +20,9 @@
   100% {transform: scale(1);}
 }
 
-#linkOne:hover {
-  background-color: darkblue;
-  color: #ffffff;
-  border: 2.5 solid darkblue;
-  cursor: pointer;
-}
-
-#usercard {
-  border: 5px solid grey;
-  width: 700px;
-  height: 500px;
-  margin: 10px auto;
-  background-color: #ffffff;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  
-  align-items: center;
-}
-
-#userName {
-  border: 3px solid darkblue;
-  width: 400px;
-  height: 100px;
-  text-align: center;
-}
-
-#userName:focus {transform: scale(1.1);}
-
-::placeholder {
-  color: darkblue;
-  font-weight: 900;
-}
-
 .flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
