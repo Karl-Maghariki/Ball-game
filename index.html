@@ -10,18 +10,18 @@
     <header>
       <div class="flex-container">
         <label for="#">Choose difficulty</label>
-        <button class="level level-easy">EASY</button>
-        <button class="level level-medium">MEDIUM</button>
-        <button class="level level-hard">HARD</button>
-        <button class="level level-very-hard">VERY HARD</button>
-        <button class="level level-god-mode">God mode</button>
-        <button class="level level-impossible ">Impossible</button>
+        <button onclick="startGame()" class="level level-easy">EASY</button>
+        <button onclick="mediumLevel()" class="level level-medium">MEDIUM</button>
+        <button onclick="hardLevel()" class="level level-hard">HARD</button>
+        <button onclick="veryHardLevel()" class="level level-very-hard">VERY HARD</button>
+        <button onclick="godModeLevel()" class="level level-god-mode">God mode</button>
+        <button onclick="impossibleLevel()" class="level level-impossible ">Impossible</button>
       </div>
       <div class="flex-container">
         <label for="#">Choose ball size</label>
-        <button class="size size-small">SMALL</button>
-        <button class="size size-medium">MEDIUM</button>
-        <button class="size size-big">HARD</button>
+        <button onclick="smallBall()" class="size size-small">SMALL</button>
+        <button onclick="mediumBall()" class="size size-medium">MEDIUM</button>
+        <button onclick="bigBall()" class="size size-big">HARD</button>
       </div>
       <div class="flex-container">
         <button onclick="startGame()" class="game game-start">Start game</button>
