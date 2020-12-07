@@ -91,13 +91,13 @@ main {
   position: relative;
   animation-name: ballMoving;
   animation-iteration-count: infinite;
-  animation-duration: 5s;
+  animation-duration: 0s;
 }
 
 @keyframes ballMoving {
-  0% {left: 2px;}
-  25% {left: 90%;}
-  50% {right: 2px;}
-  75% {right: 90%;}
-  100% {left: 2px;}
+  0% {left: 2px;background-color: coral}
+  25% {left: 90%;background-color: yellow}
+  50% {right: 2px;background-color: yellowgreen}
+  75% {right: 90%;background-color: chartreuse}
+  100% {left: 2px;background-color: coral}
 }
