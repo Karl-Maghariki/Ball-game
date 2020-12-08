@@ -39,13 +39,3 @@ function bigBall() {
   document.getElementById("ball").style.height = "100px";
   document.getElementById("ball").style.width = "100px";
 }
-
-function counter() {
-  let counter = 0;
-  counter += 1
-  displayCounterValue()
-}
-
-function displayCounterValue() {
-  document.getElementById("pointsCounter").innerText = counter;
-}
