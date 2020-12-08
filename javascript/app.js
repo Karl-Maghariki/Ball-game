@@ -43,6 +43,6 @@ function bigBall() {
   ball.style.width = "100px";
 }
 
-function win() {
+function winGame() {
   alert("You won!")
 }
