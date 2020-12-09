@@ -34,6 +34,10 @@ function bigBall() {
   ball.style.height = "100px";
   ball.style.width = "100px";
 }
+function giveUp() {
+  alert("Don't worry, you'll do it next time!")  
+  ball.style.animationDuration = "0s";
+}
 function winGame() {
   alert("You won!");
 }
