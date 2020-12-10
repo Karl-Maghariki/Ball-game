@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="images/favicon.jpg">
-    <title>game</title>
+    <title>Choose level</title>
   </head>
   <body>
     <header>
       <div class="flex-container">
         <label for="#">Choose difficulty</label><button onclick="startGame()" class="level level-easy">EASY</button><button onclick="mediumLevel()" class="level level-medium">MEDIUM</button>
-        <button onclick="hardLevel()" class="level level-hard">HARD</button><button onclick="veryHardLevel()" class="level level-very-hard">VERY HARD</button> <button onclick="godModeLevel()" class="level level-god-mode">God mode</button>
+        <button onclick="hardLevel()" class="level level-hard">HARD</button><button onclick="veryHardLevel()" class="level level-very-hard">VERY HARD</button><button onclick="godModeLevel()" class="level level-god-mode">God mode</button>
         <button onclick="impossibleLevel()" class="level level-impossible">Impossible</button>
       </div>
       <div class="flex-container">
@@ -23,10 +22,11 @@
     <main><div onclick="winGame()" id="ball"></div></main>
     <footer>
       <div class="flex-container">
-        <button onclick="giveUp()" class="giveUP">Give up</button>
+        <button onclick="counter()" class="giveUP">Give up</button>
         <div id="pointsCounter"></div>
       </div>
     </footer>
   </body>
   <script src="javascript/app.js"></script>
 </html>
+  

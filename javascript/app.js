@@ -1,6 +1,5 @@
 //announcing variables
 let ball = document.getElementById("ball");
-
 function startGame() {
   ball.style.animationDuration = "5s";
 }
@@ -35,7 +34,7 @@ function bigBall() {
   ball.style.width = "100px";
 }
 function giveUp() {
-  alert("Don't worry, you'll do it next time!")  
+  alert("Don't worry, you'll do it next time!");
   ball.style.animationDuration = "0s";
 }
 function winGame() {
