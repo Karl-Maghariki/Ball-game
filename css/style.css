@@ -31,11 +31,6 @@ main {
   align-items: center;
   margin-bottom: 10px;
 }
-.entername {
-  color: darkblue;
-  text-align: center;
-}
-
 .flex-container {
   height: 20px;
   display: flex;
