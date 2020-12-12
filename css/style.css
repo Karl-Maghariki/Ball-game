@@ -71,7 +71,9 @@ main {
 }
 .game,
 .giveUP {
-  background-color: #000000;
+  background-color: cornflowerblue;
+  border: none;
+  margin: 10px ;
   color: #ffffff;
   display: block;
 }
@@ -84,27 +86,17 @@ main {
   animation-name: ballMoving;
   animation-iteration-count: infinite;
   animation-duration: 0s;
+  animation-timing-function: linear;
 }
 @keyframes ballMoving {
   0% {
-    left: 2px;
-    background-color: coral;
-  }
-  25% {
-    left: 90%;
-    background-color: yellow;
+    left: 0%;
   }
   50% {
-    right: 2px;
-    background-color: yellowgreen;
-  }
-  75% {
-    right: 90%;
-    background-color: chartreuse;
+    left: 96%;
   }
   100% {
-    left: 2px;
-    background-color: coral;
+    left: 0%;
   }
 }
 #pointsCounter {
@@ -115,4 +107,11 @@ main {
 }
 .giveUP {
   margin-bottom: 5px;
+}
+
+#pointsCounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: cornflowerblue;
 }

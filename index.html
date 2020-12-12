@@ -19,9 +19,9 @@
       </div>
       <div class="flex-container">
         <label for="#">Choose ball size</label>
-        <button onclick="smallBall()" class="size size-small">SMALL</button>
-        <button onclick="mediumBall()" class="size size-medium">MEDIUM</button>
-        <button onclick="bigBall()" class="size size-big">BIG</button>
+        <button onclick="smallBall(), pressEasy()" id="small" class="size size-small">SMALL</button>
+        <button onclick="mediumBall()" id="medium" class="size size-medium">MEDIUM</button>
+        <button onclick="bigBall()" id="big" class="size size-big">BIG</button>
       </div>
       <div class="flex-container">
         <button onclick="startGame()" class="game game-start">Start game</button>
@@ -32,7 +32,7 @@
     </main>
     <footer>
       <div class="flex-container">
-        <button onclick="counter()" class="giveUP">Give up</button>
+        <button onclick="giveUp()" class="giveUP">Give up</button>
         <div id="pointsCounter"></div>
       </div>
     </footer>

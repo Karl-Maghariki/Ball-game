@@ -43,4 +43,7 @@ function winGame() {
   } else {
     alert("You won!") 
   }
+  let counter = 0;
+  counter++;
+  document.getElementById("pointsCounter").innerHTML = counter;
 }
