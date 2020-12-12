@@ -1,9 +1,9 @@
 //announcing variables
-let ball = document.getElementById("ball");
+let ball = document.getElementById("ball"); //the ball that user must aim
 
 function startGame() {
   alert("The game will start in 3s")
-  setTimeout(function(){ ball.style.animationDuration = "5s"; }, 3000);
+  setTimeout(function(){ ball.style.animationDuration = "5s"; }, 3000); //3000ms means 3s
 }
 function stopGame() {
   ball.style.animationDuration = "0s";
@@ -42,11 +42,11 @@ function giveUp() {
 function winGame() { 
   alert("You won !");
   let counter = 0;
-  counter++;
+  counter++; //will add to itself at every win
   document.getElementById("pointsCounter").innerHTML = counter;
 }
 function changeColor() {
-  let inputValue = document.getElementById("userColor").value;
+  let inputValue = document.getElementById("userColor").value; //this will take the chosen color 
   ball.style.backgroundColor = inputValue
   document.getElementById("color1").style.backgroundColor = inputValue;
   document.getElementById("color2").style.backgroundColor = inputValue;
