@@ -35,7 +35,7 @@ function bigBall() {
 }
 function giveUp() {
   alert("Don't worry, you'll do it next time!");
-  ball.style.animationDuration = "0s";
+  ball.style.animationDuration = "0 s";
 }
 function winGame() {
   alert("You won!");
