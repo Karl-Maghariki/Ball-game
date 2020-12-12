@@ -2,7 +2,8 @@
 let ball = document.getElementById("ball");
 
 function startGame() {
-  ball.style.animationDuration = "5s";
+  alert("The game will start in 3s")
+  setTimeout(function(){ ball.style.animationDuration = "5s"; }, 3000);
 }
 function stopGame() {
   ball.style.animationDuration = "0s";
