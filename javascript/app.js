@@ -38,11 +38,7 @@ function giveUp() {
   ball.style.animationDuration = "0 s";
 }
 function winGame() { 
-  if (ball.style.animationDuration = "0 s") {
-    alert("cheater !")
-  } else {
-    alert("You won!") 
-  }
+  alert("You won !")
   let counter = 0;
   counter++;
   document.getElementById("pointsCounter").innerHTML = counter;
