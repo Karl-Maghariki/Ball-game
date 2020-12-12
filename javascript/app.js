@@ -1,5 +1,6 @@
 //announcing variables
 let ball = document.getElementById("ball");
+
 function startGame() {
   ball.style.animationDuration = "5s";
 }
@@ -38,8 +39,24 @@ function giveUp() {
   ball.style.animationDuration = "0 s";
 }
 function winGame() { 
-  alert("You won !")
+  alert("You won !");
   let counter = 0;
   counter++;
   document.getElementById("pointsCounter").innerHTML = counter;
+}
+function changeColor() {
+  let inputValue = document.getElementById("userColor").value;
+  ball.style.backgroundColor = inputValue
+  document.getElementById("color1").style.backgroundColor = inputValue;
+  document.getElementById("color2").style.backgroundColor = inputValue;
+  document.getElementById("color3").style.backgroundColor = inputValue;
+  document.getElementById("color4").style.backgroundColor = inputValue;
+  document.getElementById("color5").style.backgroundColor = inputValue;
+  document.getElementById("color6").style.backgroundColor = inputValue;
+  document.getElementById("color7").style.backgroundColor = inputValue;
+  document.getElementById("color8").style.backgroundColor = inputValue;
+  document.getElementById("color9").style.backgroundColor = inputValue;
+  document.getElementById("color11").style.backgroundColor = inputValue;
+  document.getElementById("color12").style.backgroundColor = inputValue;
+  document.getElementById("color13").style.backgroundColor = inputValue; 
 }

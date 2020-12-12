@@ -1,12 +1,27 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  height: 100%;
+  width: 100%;
+} 
+
+input {
+  height: 10px;
+  background-color: #ffffff ;
+  border: none;
+}
+
 body {
   margin: 0px;
 }
 header {
   border-top: 6px solid #000000;
   border-bottom: 6px solid #000000;
+}
+h2 {
+  display: block;
 }
 main {
   border-top: 3px solid black;
@@ -29,35 +44,11 @@ main {
   align-items: center;
   margin: 0px;
 }
-.level-easy {
-  background-color: cornflowerblue;
-  border: 2px solid cornflowerblue;
-}
-.level-medium,
-.size-small {
-  background-color: cornflowerblue;
-  border: 2px solid cornflowerblue;
-}
-.level-hard {
-  background-color: cornflowerblue;
-  border: 2px solid cornflowerblue;
-}
-.level-very-hard,
-.size-medium {
-  background-color: cornflowerblue;
-  border: 2px solid cornflowerblue;
-}
-.level-god-mode {
-  background-color: cornflowerblue;
-  border: 2px solid cornflowerblue;
-}
-.level-impossible,
-.size-big {
-  background-color: cornflowerblue;
-  border: 2px solid cornflowerblue;
-}
+
 .level,
-.size {
+.size, 
+.color {
+  background-color: cornflowerblue;
   font-size: 8px;
   display: flex;
   justify-content: center;
@@ -73,7 +64,7 @@ main {
 .giveUP {
   background-color: cornflowerblue;
   border: none;
-  margin: 10px ;
+  margin: 20px 10px ;
   color: #ffffff;
   display: block;
 }
@@ -114,4 +105,8 @@ main {
   justify-content: center;
   align-items: center;
   color: cornflowerblue;
+}
+
+.color {
+
 }

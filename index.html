@@ -10,29 +10,35 @@
     <header>
       <div class="flex-container">
         <label for="#">Choose difficulty</label>
-        <button onclick="startGame()" class="level level-easy">EASY</button>
-        <button onclick="mediumLevel()" class="level level-medium">MEDIUM</button>
-        <button onclick="hardLevel()" class="level level-hard">HARD</button>
-        <button onclick="veryHardLevel()" class="level level-very-hard">VERY HARD</button>
-        <button onclick="godModeLevel()" class="level level-god-mode">God mode</button>
-        <button onclick="impossibleLevel()" class="level level-impossible">Impossible</button>
+        <button id="color1" onclick="startGame()" class="level level-easy">EASY</button>
+        <button id="color2" onclick="mediumLevel()" class="level level-medium">MEDIUM</button>
+        <button id="color3" onclick="hardLevel()" class="level level-hard">HARD</button>
+        <button id="color4" onclick="veryHardLevel()" class="level level-very-hard">VERY HARD</button>
+        <button id="color5" onclick="godModeLevel()" class="level level-god-mode">God mode</button>
+        <button id="color6" onclick="impossibleLevel()" class="level level-impossible">Impossible</button>
       </div>
       <div class="flex-container">
         <label for="#">Choose ball size</label>
-        <button onclick="smallBall(), pressEasy()" id="small" class="size size-small">SMALL</button>
-        <button onclick="mediumBall()" id="medium" class="size size-medium">MEDIUM</button>
-        <button onclick="bigBall()" id="big" class="size size-big">BIG</button>
+        <button id="color7" onclick="smallBall()" id="small" class="size size-small">SMALL</button>
+        <button id="color8" onclick="mediumBall()" id="medium" class="size size-medium">MEDIUM</button>
+        <button id="color9" onclick="bigBall()" id="big" class="size size-big">BIG</button>
       </div>
       <div class="flex-container">
-        <button onclick="startGame()" class="game game-start">Start game</button>
-        <button onclick="stopGame()" class="game game-stop">Stop game</button></div>
+        <label for="#">Choose the color theme: </label>
+        <input type="color" id="userColor" />
+        <button id="color11" class="color" onclick="changeColor()">Change color</button>
+      </div>
+      <div class="flex-container">
+        <button id="color12" onclick="startGame()" class="game game-start">Start game</button>
+        <button id="color13" onclick="stopGame()" class="game game-stop">Stop game</button>
+      </div>
     </header>
     <main>
       <div onclick="winGame()" id="ball"></div>
     </main>
     <footer>
       <div class="flex-container">
-        <button onclick="giveUp()" class="giveUP">Give up</button>
+        <button id="color14" onclick="giveUp()" class="giveUP">Give up</button>
         <div id="pointsCounter"></div>
       </div>
     </footer>
