@@ -37,6 +37,10 @@ function giveUp() {
   alert("Don't worry, you'll do it next time!");
   ball.style.animationDuration = "0 s";
 }
-function winGame() {
-  alert("You won!");
+function winGame() { 
+  if (ball.style.animationDuration = "0 s") {
+    alert("cheater !")
+  } else {
+    alert("You won!") 
+  }
 }
