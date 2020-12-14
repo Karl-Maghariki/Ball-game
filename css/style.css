@@ -13,8 +13,13 @@ input {
   border: none;
 }
 
+button {
+  font-family: 'Langar', cursive;
+}
+
 body {
   margin: 0px;
+  font-family: 'Langar', cursive;
 }
 header {
   border-top: 6px solid #000000;
