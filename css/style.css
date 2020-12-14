@@ -13,7 +13,12 @@ input {
   border: none;
 }
 
+label {
+  width: 130px;
+}
+
 button {
+  padding: 1rem 0.5rem;
   font-family: 'Langar', cursive;
 }
 
@@ -37,12 +42,10 @@ main {
   margin-bottom: 10px;
 }
 .flex-container {
-  height: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin: 0px;
 }
 
 .level,
@@ -53,7 +56,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 10px 50px;
   width: 66px;
   height: 16px;
   color: #ffffff;
