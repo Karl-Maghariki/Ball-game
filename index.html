@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <title>Game</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex-container">
+        <label>Choose difficulty</label>
+        <button id="btn_easy" onclick="startGame()" class="level level-easy">EASY</button>
+        <button id="btn_medium" onclick="mediumLevel()" class="level level-medium">MEDIUM</button>
+        <button id="btn_hard" onclick="hardLevel()" class="level level-hard">HARD</button>
+        <button id="btn_veryHard" onclick="veryHardLevel()" class="level level-very-hard">VERY HARD</button>
+        <button id="btn_godMode" onclick="godModeLevel()" class="level level-god-mode">God mode</button>
+        <button id="btn_impossible" onclick="impossibleLevel()" class="level level-impossible">Impossible</button>
+      </div>
+      <div class="flex-container">
+        <label>Choose ball size</label>
+        <button id="btn_small" onclick="smallBall()" id="small" class="size size-small">SMALL</button>
+        <button id="btn_size" onclick="mediumBall()" id="medium" class="size size-medium">MEDIUM</button>
+        <button id="btn_big" onclick="bigBall()" id="big" class="size size-big">BIG</button>
+      </div>
+      <div class="flex-container">
+        <label>Choose the color theme: </label>
+        <input onchange="changeColor()" type="color" id="userColor" />
+      </div>
+      <div class="flex-container">
+        <button id="btn_stop" onclick="stopGame()" class="game game-stop">Stop game</button>
+      </div>
+    </header>
+    <main>
+       <div onclick="winGame()" id="ball"></div>
+    </main>
+    <footer>
+      <div class="flex-container">
+        <button id="btn_lose" onclick="giveUp()" class="giveUP">Give up</button>
+        <div id="pointsCounter"></div>
+      </div>
+    </footer>
+  </body>
+  <script src="javascript/app.js"></script>
+</html>
