@@ -48,16 +48,16 @@ function winGame() {
 function changeColor() {
   let inputValue = document.getElementById("userColor").value; //this will take the chosen color 
   ball.style.backgroundColor = inputValue
-  document.getElementById("color1").style.backgroundColor = inputValue;
-  document.getElementById("color2").style.backgroundColor = inputValue;
-  document.getElementById("color3").style.backgroundColor = inputValue;
-  document.getElementById("color4").style.backgroundColor = inputValue;
-  document.getElementById("color5").style.backgroundColor = inputValue;
-  document.getElementById("color6").style.backgroundColor = inputValue;
-  document.getElementById("color7").style.backgroundColor = inputValue;
-  document.getElementById("color8").style.backgroundColor = inputValue;
-  document.getElementById("color9").style.backgroundColor = inputValue;
-  document.getElementById("color11").style.backgroundColor = inputValue;
-  document.getElementById("color12").style.backgroundColor = inputValue;
-  document.getElementById("color13").style.backgroundColor = inputValue; 
+  document.getElementById("btn_easy").style.backgroundColor = inputValue;
+  document.getElementById("btn_medium").style.backgroundColor = inputValue;
+  document.getElementById("btn_hard").style.backgroundColor = inputValue;
+  document.getElementById("btn_veryHard").style.backgroundColor = inputValue;
+  document.getElementById("btn_godMode").style.backgroundColor = inputValue;
+  document.getElementById("btn_impossible").style.backgroundColor = inputValue;
+  document.getElementById("btn_easy").style.backgroundColor = inputValue;
+  document.getElementById("btn_easy").style.backgroundColor = inputValue;
+  document.getElementById("btn_easy").style.backgroundColor = inputValue;
+  document.getElementById("btn_easy").style.backgroundColor = inputValue;
+  document.getElementById("btn_easy").style.backgroundColor = inputValue;
+  document.getElementById("btn_easy").style.backgroundColor = inputValue; 
 }
