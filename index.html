@@ -28,8 +28,7 @@
       </div>
       <div class="flex-container">
         <label>Choose the color theme: </label>
-        <input type="color" id="userColor" />
-        <button id="btn-color" class="color" onclick="changeColor()">Change color</button>
+        <input onchange="changeColor()" type="color" id="userColor" />
       </div>
       <div class="flex-container">
         <button id="btn_start" onclick="startGame()" class="game game-start">Start game</button>
