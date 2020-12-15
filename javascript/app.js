@@ -53,8 +53,8 @@ function winGame() {
 }
 function changeColor() {
   let inputValue = document.getElementById("userColor").value; //this will take the chosen color 
-  ball.backgroundColor = inputValue
-  document.getElementById("btn_easy").style.backgroundColor = inputValue; //changing theme
+  ball.backgroundColor = inputValue //changing theme
+  document.getElementById("btn_easy").style.backgroundColor = inputValue; 
   document.getElementById("btn_medium").style.backgroundColor = inputValue;
   document.getElementById("btn_hard").style.backgroundColor = inputValue;
   document.getElementById("btn_veryHard").style.backgroundColor = inputValue;
