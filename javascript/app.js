@@ -54,10 +54,10 @@ function changeColor() {
   document.getElementById("btn_veryHard").style.backgroundColor = inputValue;
   document.getElementById("btn_godMode").style.backgroundColor = inputValue;
   document.getElementById("btn_impossible").style.backgroundColor = inputValue;
-  document.getElementById("btn_easy").style.backgroundColor = inputValue;
-  document.getElementById("btn_easy").style.backgroundColor = inputValue;
-  document.getElementById("btn_easy").style.backgroundColor = inputValue;
-  document.getElementById("btn_easy").style.backgroundColor = inputValue;
-  document.getElementById("btn_easy").style.backgroundColor = inputValue;
-  document.getElementById("btn_easy").style.backgroundColor = inputValue; 
+  document.getElementById("btn_small").style.backgroundColor = inputValue;
+  document.getElementById("btn_size").style.backgroundColor = inputValue;
+  document.getElementById("btn_big").style.backgroundColor = inputValue;
+  document.getElementById("btn_lose").style.backgroundColor = inputValue;
+  document.getElementById("btn_start").style.backgroundColor = inputValue;
+  document.getElementById("btn_stop").style.backgroundColor = inputValue; 
 }
