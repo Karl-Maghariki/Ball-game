@@ -6,9 +6,9 @@ function startGame() {
 }
 function countDown() {
   let counter = 3;
-  counter--;
+  counter--; //calculate
   if (counter === 0) {
-    ball.animationDuration = "5s";
+    ball.animationDuration = "5s"; //start game
   }
 }
 function stopGame() {
@@ -49,12 +49,12 @@ function winGame() {
   alert("You won !");
   let counter = 0;
   counter++; //will add to itself at every win
-  document.getElementById("pointsCounter").innerHTML = counter;
+  document.getElementById("pointsCounter").innerHTML = counter; // in the box, the result will be displayed
 }
 function changeColor() {
   let inputValue = document.getElementById("userColor").value; //this will take the chosen color 
   ball.backgroundColor = inputValue
-  document.getElementById("btn_easy").style.backgroundColor = inputValue;
+  document.getElementById("btn_easy").style.backgroundColor = inputValue; //changing theme
   document.getElementById("btn_medium").style.backgroundColor = inputValue;
   document.getElementById("btn_hard").style.backgroundColor = inputValue;
   document.getElementById("btn_veryHard").style.backgroundColor = inputValue;
