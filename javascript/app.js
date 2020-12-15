@@ -2,16 +2,14 @@
 let ball = document.getElementById("ball").style; //the ball that user must aim
 
 function startGame() {
-  setInterval(countDown, 3000) //set interval will repeat the action every 3000 ms (milliseconds)
+  setInterval(countDown(), 1000) //will repeat the action every 1000 ms(milliseconds)
 }
-
 function countDown() {
   let counter = 3;
   counter--;
   if (counter === 0) {
     ball.animationDuration = "5s";
   }
-  document.getElementById("demo").innerHTML = counter;
 }
 function stopGame() {
   ball.animationDuration = "0s";
