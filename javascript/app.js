@@ -64,4 +64,3 @@ function changeColor() {
   document.getElementById("btn_lose").style.backgroundColor = inputValue;
   document.getElementById("btn_stop").style.backgroundColor = inputValue; 
 }
-
