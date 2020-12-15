@@ -1,9 +1,13 @@
 //announcing variables
 let ball = document.getElementById("ball").style; //the ball that user must aim
 
-function startGame() {
-  alert("The game will start in 3s")
-  setTimeout(function(){ ball.animationDuration = "5s"; }, 3000); //3000ms means 3s
+function countDown() {
+  let counter = 3;
+  counter--;
+  if (counter === 0) {
+    ball.animationDuration = "5s";
+  }
+  document.getElementById("demo").innerHTML = counter;
 }
 function stopGame() {
   ball.animationDuration = "0s";
@@ -60,3 +64,4 @@ function changeColor() {
   document.getElementById("btn_lose").style.backgroundColor = inputValue;
   document.getElementById("btn_stop").style.backgroundColor = inputValue; 
 }
+
