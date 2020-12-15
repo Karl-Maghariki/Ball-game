@@ -1,2 +1,2 @@
 # Ball-game
-A game that consists aiming the ball
+> A game that consists aiming the ball
