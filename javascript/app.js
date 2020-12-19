@@ -1,15 +1,16 @@
 //announcing variables
-let ball = document.getElementById("ball").style; //the ball that user must aim
+let ball = document.getElementById("ball").style; //the ball that the user must aim
 
 function startGame() {
-  setInterval(countDown(), 1000) //will repeat the action every 1000 ms(milliseconds)Snnf
-  document.getElementById("demo").innerHTML = counter
+  const id =  setInterval(countDown, 1000) 
 }
+let counter = 3;
 function countDown() {
-  let counter = 3;
+  document.getElementById("demo").innerHTML  = counter
   counter--; //calculate
   if (counter === 0) {
     ball.animationDuration = "5s"; //start game
+    clearInterval(id)
   }
 }
 function stopGame() {
